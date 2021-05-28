@@ -1,2 +1,5 @@
-var newText = 'Supakorn'
-document.getElementById('no').innerHTML = newText
+document.getElementById('ok').addEventListener('click', function(e)
+{
+    alert('ok is clicked')
+}
+)
